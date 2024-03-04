@@ -1,16 +1,14 @@
-# Python Projects
+# Programming Practice
 
-A compilation of python project from the project based learning repository to aid in my personal practice of the python language.
+An in progress compilation of projects in a variety of languages.
 
 ## Table of Contents
 
-- [ASCII Art](#ASCII-Art)
-- [Game of Life](#Game-of-Life)
+- [Python](#Python)
 
-## [ASCII Art](ascii-art)
+## Python
 
-Converts images file to ASCII art text file, by correlating pixel brightness to a respective ASCII symbol.
-
-## [Game of Life](game-of-life)
-
-Simulates John Conways Game of Life in the terminal.
+- [ASCII Art](ascii-art)
+  - Converts immages to ASCII art
+- [Game of Life](game-of-life)
+  - Simulates John Conways Game of Life in the terminal
