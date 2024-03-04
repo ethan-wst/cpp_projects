@@ -1,4 +1,4 @@
-# Programming Practice
+# Programming Projects
 
 An in progress compilation of projects in a variety of languages.
 
