@@ -36,4 +36,13 @@ def addClass(class_num, class_name, year, term):
     except:
         print("Insertion Failed. Insure the class number is unique.")
 
-##addClass(3368, 'Data Structures and Algorithms', 2024, 'Spring')
+def getClassArray(year, term):
+    try:
+        sql = "SELECT class_num, class_name, grade FROM classes WHERE year=%s AND term=%s ORDER BY class_num"
+        val = (year, term)
+        input = sql, val
+        mycursor.execute(sql, val)
+        result = mycursor.fetchall()
+        return result
+    except:
+        print("Failed to collect array of classes")
